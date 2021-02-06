@@ -3,7 +3,7 @@ var expect = chai.expect;
 
 var CalculatorSteps = function() {
 
-  var CalculatorPage = require("../pages/calculator_page.js");
+  var CalculatorPage = require("../old_pages/calculator_page.js");
 
   this.World = function MyWorld() {
     this.page = new CalculatorPage();

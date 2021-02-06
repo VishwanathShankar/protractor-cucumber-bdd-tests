@@ -5,10 +5,10 @@ exports.config = {
   frameworkPath: require.resolve('protractor-cucumber-framework'),
 
   specs: [
-    'features/*.feature'
+    'e2e/features/*.feature'
   ],
   cucumberOpts: {
-    require: 'features/steps/*_steps.js',
+    require: 'e2e/steps/*_steps.js',
     format: 'pretty'
   }
 }

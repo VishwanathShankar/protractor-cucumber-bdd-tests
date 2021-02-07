@@ -1,0 +1,325 @@
+[
+  {
+    "description": " As a user of the insurance calculation app\n I would like to calculate the insurance premium percentage\n So that I could come to know the premium amount",
+    "elements": [
+      {
+        "id": "premium-calculation-based-on-age;premium-calculations-when-given-my-dob",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Premium calculations when given my DOB",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The premium calculation app is open",
+            "result": {
+              "status": "passed",
+              "duration": 6590599
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter name as Vishwa",
+            "result": {
+              "status": "passed",
+              "duration": 1795001
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter DOB as 07/03/1987",
+            "result": {
+              "status": "passed",
+              "duration": 919801
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The premium percentage should be equal to 0.075",
+            "result": {
+              "status": "passed",
+              "duration": 3875284999
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "premium-calculation-based-on-age;premium-calculations-for-age-group-of-10---30-years",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Premium calculations for age group of 10 - 30 years",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The premium calculation app is open",
+            "result": {
+              "status": "passed",
+              "duration": 2549900
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter name as \"Gaurav\"",
+            "result": {
+              "status": "passed",
+              "duration": 1485399
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter BOD as 11/20/2011",
+            "result": {
+              "status": "passed",
+              "duration": 2256899
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The premium percentage should be equal to 0.025",
+            "result": {
+              "status": "passed",
+              "duration": 3117259000
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "premium-calculation-based-on-age;premium-calculations-for-age-group-of-10---30-years",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Premium calculations for age group of 10 - 30 years",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The premium calculation app is open",
+            "result": {
+              "status": "passed",
+              "duration": 524600
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter name as \"Greeshma\"",
+            "result": {
+              "status": "passed",
+              "duration": 538301
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter BOD as 01/08/2009",
+            "result": {
+              "status": "passed",
+              "duration": 800899
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The premium percentage should be equal to 0.025",
+            "result": {
+              "status": "failed",
+              "duration": 3817704200,
+              "error_message": "AssertionError: expected '0.05' to equal '0.025'"
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "premium-calculation-based-on-age;premium-calculations-for-age-group-of-10---30-years",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Premium calculations for age group of 10 - 30 years",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The premium calculation app is open",
+            "result": {
+              "status": "passed",
+              "duration": 603901
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter name as \"Inchara\"",
+            "result": {
+              "status": "passed",
+              "duration": 1289101
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter BOD as 06/18/2017",
+            "result": {
+              "status": "passed",
+              "duration": 1934300
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The premium percentage should be equal to 0.025",
+            "result": {
+              "status": "passed",
+              "duration": 3332099699
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "premium-calculation-based-on-age;premium-calculations-for-age-group-of-10---30-years",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Premium calculations for age group of 10 - 30 years",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The premium calculation app is open",
+            "result": {
+              "status": "passed",
+              "duration": 893901
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter name as \"Anamika\"",
+            "result": {
+              "status": "passed",
+              "duration": 563899
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter BOD as 10/12/1993",
+            "result": {
+              "status": "passed",
+              "duration": 1531101
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The premium percentage should be equal to 0.025",
+            "result": {
+              "status": "failed",
+              "duration": 3088117500,
+              "error_message": "AssertionError: expected '0.05' to equal '0.025'"
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\steps\\premiumCalculationSteps.js:48"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "premium-calculation-based-on-age",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Premium Calculation Based on Age",
+    "tags": [],
+    "uri": "C:\\Users\\Inchu\\practice\\protractor-cucumber-example\\e2e\\features\\premiumCalculations.feature"
+  }
+]

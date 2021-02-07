@@ -32,6 +32,19 @@ npm run start-webdriver
 npm run protractor
 ```
 
+### Before running 'npm run protractor'
+
+```
+Clone the testing insurance premium app from 
+git clone https://github.com/VishwanathShankar/angular-practice.git
+cd angular-practice
+git checkout tdd-2
+npm install
+ng serve
+```
+The above commands will make sure that the insurance app is running on http://localhost:4200/
+
+
 ## First Feature File
 
 ![alt text](https://user-images.githubusercontent.com/9764814/107133803-050d0800-6912-11eb-9f5d-44a8972ed93f.png)

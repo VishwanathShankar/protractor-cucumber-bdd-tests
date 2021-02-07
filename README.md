@@ -1,16 +1,15 @@
-# protractor-cucumber-example
+# protractor-cucumber-BDD-example
 Example project using Protractor with Cucumber and Page Objects
 
-This creates some basic cucumber tests using the same Super Calculator application used in the official Protractor tutorial - http://juliemr.github.io/protractor-demo/
-
+This is a sample repo to demonstrate the usage of cucumber in protractor
 
 ## Getting Started
 
 ### Clone Repository
 
 ```
-git clone https://github.com/mlev/protractor-cucumber-example.git
-cd protractor-cucumber-example
+git clone https://github.com/VishwanathShankar/protractor-cucumber-bdd-tests.git
+cd protractor-cucumber-bdd-tests
 ```
 
 ### Install Dependencies

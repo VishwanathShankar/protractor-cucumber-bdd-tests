@@ -31,8 +31,6 @@ npm run start-webdriver
 ```
 npm run protractor
 ```
-![alt text](https://user-images.githubusercontent.com/9764814/107133842-6e8d1680-6912-11eb-9402-f2959ec02180.png)
-
 
 ## First Feature File
 

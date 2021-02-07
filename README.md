@@ -53,3 +53,6 @@ The above commands will make sure that the insurance app is running on http://lo
 ## Cucumber complaining that steps are not defined for the feature file added
 ![alt text](https://user-images.githubusercontent.com/9764814/107133806-1c4bf580-6912-11eb-8eb3-710405d28be0.png)
 
+## Cucumber protractor reports
+![alt text](https://user-images.githubusercontent.com/9764814/107150529-36262080-6984-11eb-8f4f-4fd3275cf292.png)
+
